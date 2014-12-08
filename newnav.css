@@ -1,0 +1,61 @@
+body { padding-top: 10px; }
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+
+.caption {
+    /*position:absolute;*/
+    /*top:0;*/
+    /*right:0;*/
+    background:rgba(100, 100, 100, 0.66);
+    width:100%;
+    /*height:100%;*/
+    padding:2%;
+  /*  display: none;*/
+    text-align:center;
+    color:#fff !important;
+    z-index:1;
+}
+
+.img-responsive {
+	z-index:3;
+}
+
+
+
+
+.title-caption {
+	font-family: Helvetica;
+ 	background:rgba(0, 0, 0, 0.45);
+	position:absolute;
+	right:15%;
+	bottom:30px;
+	width:100%;
+	left:0%;
+	z-index:10;
+	/*padding-top:5px;
+	padding-bottom:5px;*/
+	color:#fff;
+	text-align:center;
+	text-shadow:0 2px 3px rgba(0,0,0,.8)
+}
